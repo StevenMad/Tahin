@@ -1,0 +1,258 @@
+@font-face{
+    font-family: "Maxwell";
+    src: url("fonts/MAXWELL REGULAR.ttf");
+
+}
+
+#choixAcces, #connexion, #inscription , #radio ,
+#radioSansCo{
+    background-image: url("images/fond2bis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   background-position: right top;
+}
+
+#logo{
+    display: block;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 500px;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu1{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#lien{
+    font-family: "Maxwell";
+    font-size: 150%;
+}
+
+#lien:link{
+    color: #C35533;
+}
+#lien:hover, a:active{
+       color:white;
+}
+#lien:visited{
+    color:#692E1B;
+}
+
+.button{
+    background-color: rgba(255, 255,255, 0.4);
+    border: 4px solid #ED7B51;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 40%;
+    height: 40%;
+    max-height: 150px;
+    max-width: 200px;
+    padding: 30px 32px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.buttonnav{
+    background-color: rgba(255, 255,255, 0.4);
+    border: 1px solid #ED7B51;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 50%;
+    max-height: 150px;
+    max-width: 200px;
+    padding: 30px 30px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+
+.button:hover{
+    background-color: #F79E75;
+}
+
+
+#formu{
+    border:1px solid #F7B391;
+    font-family: "Maxwell";
+    text-align: center;
+    font-size: 100%;
+    width: 100%;
+    border-color: #F7B391;
+}
+#formu:focus{
+    -webkit-box-shadow: 0 0 12px 	#F7B391 /*{a-active-background-color}*/;
+	-moz-box-shadow: 0 0 12px 		#F7B391 /*{a-active-background-color}*/;
+	box-shadow: 0 0 12px 			#F7B391 /*{a-active-background-color}*/;
+    border-color:			#F7B391
+}
+#formu:active{
+    -webkit-box-shadow: 0 0 12px 	#F7B391 /*{a-active-background-color}*/;
+	-moz-box-shadow: 0 0 12px 		#F7B391 /*{a-active-background-color}*/;
+	box-shadow: 0 0 12px 			#F7B391 /*{a-active-background-color}*/;
+    border-color:			#F7B391
+}
+
+#logocentral{
+    display: block;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 500px;
+
+
+}
+#logoheader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%; 
+}
+#user{
+    position: absolute;
+    right: 20px;
+    top:20px;
+    width: 5%;
+  
+}
+
+#myheader{
+    background-color: red;
+}
+
+#sandwich{
+    font-size:70px;
+    cursor:pointer;
+    color: white;
+    position: fixed;
+}
+.sidenav {
+    display: block;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255,255, 0.4);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#liennav {
+    font-family: "Maxwell";
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 170%;
+    color: #ED7B51;
+    display: block;
+    transition: 0.3s;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+#liennav:hover, .offcanvas a:focus{
+    color: #692E1B;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#boutonsMusic {
+    font-family: "Maxwell";
+    text-decoration: none;
+    font-size: 170%;
+    color: #692E1B;
+    display: flex;
+    transition: 0.3s;
+    justify-content: center;
+    width: 50%;
+    margin:auto;
+    
+}
+#boutonsmu {
+    background-color: rgba(255, 255,255, 0.4);
+    font-family: "Maxwell";
+    text-decoration: none;
+    font-size: 120%;
+    color: #692E1B;
+    display: block;
+    transition: 0.3s;
+    margin:10px;
+    border: 1px solid #692E1B;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 30%;
+    padding: 50px 20px 50px 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  #liennav {   font-size: 70%;}
+  #logoheader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  #sandwich{
+    font-size:50px;
+    cursor:pointer;
+    color: white;
+    position: fixed;
+}
+#user{
+    position: absolute;
+    right: 10px;
+    top:30px;
+    width: 10%;
+  
+}
+#boutonsMusic {
+    font-family: "Maxwell";
+    text-decoration: none;
+    font-size: 100%;
+    color: #ED7B51;
+    display: flex;
+    transition: 0.3s;
+    justify-content: space-around;
+    width: 50%;
+    margin:auto;
+    padding: 10px;
+}
+#boutonsmu {
+ 
+    font-size: 70%;
+    margin: 10px;
+    padding: 5px;
+
+    
+}
+}
